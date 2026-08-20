@@ -17,11 +17,12 @@
 `organizer.py` の `dir_path` に、
 整理したいフォルダの絶対パスを設定します。
 
-```python
-dir_path = Path("整理したいフォルダのパス")
+``python
+dir_path = Path("整理したいフォルダのパス")``
 そのあと、ターミナルからプログラムを実行します。
 
-python organizer.py
+``python 
+organizer.py``
 実行すると、フォルダ内のファイルが拡張子に応じて自動的に分類されます。
 
 ## 使用したもの
